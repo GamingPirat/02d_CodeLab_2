@@ -13,10 +13,14 @@ public class App {
         output(mitarbeiter1.getInfo("role"));       // Manager
         output(mitarbeiter1.getInfo("yearofentry"));// 2015
 
+        System.out.println("-----------------");
+
         output(mitarbeiter2.getInfo("familyname")); // Bauer
         output(mitarbeiter2.getInfo("firstname"));  // Hans
         output(mitarbeiter2.getInfo("role"));       // Developer
         output(mitarbeiter2.getInfo("yearofentry"));// 2018
+
+        System.out.println("-----------------");
 
         output(mitarbeiter3.getInfo("familyname")); // Martinelli
         output(mitarbeiter3.getInfo("firstname"));  // Silvia
